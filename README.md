@@ -1,4 +1,4 @@
-# Architecture-And-AI-Architecture-Metrics-Reference
+# Architecture And AI Architecture Metrics Reference
 
 This repo is designed as a working reference for distinguishing the responsibility, information needs, and dashboard priorities of a Chief Architect and a Chief AI Architect.
 
