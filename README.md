@@ -12,6 +12,8 @@ The Chief Architect dashboards should show whether customers can move reliably f
 
 For example:
 
+This table represents the end-to-end business services/capabilities for each domain.
+
 | Domain | End-to-end capability chain |
 |---|---|
 | FOREX trade processing | Trades → execution and matching → reconciliation → trade-book position management → inter-bank integration (EDA) → intra-day, mid-day, and end-of-day P/L calculation processing and their accuracy |
@@ -21,6 +23,49 @@ For example:
 #### What above means
 
 These examples are not feature lists. They are the end-to-end capability chains a Chief Architect dashboard should watch: can work move reliably from one business service to the next, and are the calculations those services depend on accurate?
+
+```mermaid
+flowchart TB
+  subgraph forex [FOREX trade processing]
+    T[Trades] --> EM[Execution and matching]
+    EM --> R[Reconciliation]
+    R --> P[Trade-book position management]
+    P --> PL[P/L intra-day / mid-day / EOD accuracy]
+  end
+  EDA[Inter-bank integration EDA]
+  EDA -.-> EM
+  EDA -.-> R
+  EDA -.-> P
+```
+
+```mermaid
+flowchart TB
+  subgraph health [Healthcare provider]
+    E[Encounters and clinical orders] --> F[Fulfillment of care services]
+    F --> EL[Eligibility]
+    F --> OR[Orders-to-results]
+    F --> M[Medications]
+    EL --> C[Census and care-panel]
+    OR --> C
+    M --> C
+    C --> U[Utilization and case-mix intra-day / mid-day / EOD]
+  end
+  EXT[HIEs, labs, pharmacies, payer eligibility EDA]
+  EXT -.-> F
+  EXT -.-> EL
+  EXT -.-> OR
+  EXT -.-> M
+```
+
+```mermaid
+flowchart LR
+  subgraph ecom [eCommerce]
+    O[Orders] --> FF[Fulfillment]
+    FF --> A[Activation]
+    A --> N[Notification]
+    N --> B[Billing]
+  end
+```
 
 **FOREX trade processing**
 
