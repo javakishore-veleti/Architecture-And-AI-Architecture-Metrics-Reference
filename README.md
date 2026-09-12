@@ -93,3 +93,14 @@ Both Chief Architect and Chief AI Architect roles share business outcomes and te
 - The Chief AI Architect asks, "Did AI make or support the right decision, under the right controls, at an acceptable cost?"
 
 The section following provides the leadership framing first. The section after provide the detailed definitions, formulas, scorecards, and implementaiton guidance.
+
+## Table of Contents
+
+- [Deep Understanding of Chief Architect Profile](#deep-understanding-of-chief-architect-profile)
+  - [Chief Architect Role Profile](ChiefArchitect-RoleProfile.md)
+  - [Chief Architect Dashboard Definitions](ChiefArchitect-Dashboard-Definitions.md)
+
+## Deep Understanding of Chief Architect Profile
+
+- [ChiefArchitect-RoleProfile.md](ChiefArchitect-RoleProfile.md) — what "where is the journey or architecture failing?" means, what the Chief Architect focuses on, and what they are responsible for.
+- [ChiefArchitect-Dashboard-Definitions.md](ChiefArchitect-Dashboard-Definitions.md) — definitions used in the Chief Architect dashboard view.
