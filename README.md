@@ -5,6 +5,8 @@ This repo is designed as a working reference for distinguishing the responsibili
 ## Introduction
 The two roles are related but not interchangagle:
 
+![Understanding of "The Chief Architect" and "The Chief AI Architect" Profiles](docs/profiles-banner.png)
+
 ### The Chief Architect 
 The Chief Architect is accountable for the health of the end-to-end business and technology architecutre.
 
@@ -50,3 +52,5 @@ A provider **does** create and submit claims — that is revenue cycle, after th
 **“Quality” is a weak analog for those clocks.** Infection rates, readmissions, HEDIS, and CMS measures are typically monthly, quarterly, or annual. “Intra-day quality” does not mean care quality at noon. The honest clocked calculations in a hospital are census, occupancy, throughput, and case-mix close.
 
 **eCommerce** is the simpler consumer version of the same idea: an order is taken, the product is fulfilled, the service or device is activated, the customer is notified, and the bill is cut. Notification and billing show up in every industry; they are the least distinctive part of the chain.
+
+### The Chief AI Architect
