@@ -58,6 +58,36 @@ The Chief AI Architect is accountable for the safe, explainable, economical, and
 
 The Chief AI Architect dashboards should show whether AI decisions are correct, grounded in evidence, within approved authority, operationally dependable, and producing measurable value.
 
+For example:
+
+These are not end-to-end journeys. The Chief Architect already watches the pipe. The Chief AI Architect watches one AI decision that sits *inside* a joint of that pipe — and asks whether that decision was right, grounded, allowed, actually served, and worth its cost.
+
+**FOREX — a mid-day hedge recommendation.** At 11:40 the model tells the desk to cut EUR exposure. The Chief Architect cares that mid-day P/L and the trade book still close. The Chief AI Architect cares: would a desk head have made that call on this book? Was the quote live or stale? Did the recommendation stay inside the desk limit, or did it silently breach? Did the model run, or did a fallback fire unnoticed? Did the hedge save more than spread plus compute?
+
+**Healthcare provider — an order suggestion in the encounter.** The Chief Architect cares that the order is placed, resulted, and reconciled. The Chief AI Architect cares: did clinical decision support suggest the right order for *this* patient? Was it grounded in the current chart and med list, or in a summary that dropped the allergy? Was the model allowed to recommend that class of order, or did it step outside approved clinical authority? Did the service time out and a nurse proceed without it? Did the suggestion prevent a miss worth more than the review time it added?
+
+**eCommerce — hold-or-release at checkout.** The Chief Architect cares that the order moves to fulfillment, activation, and billing. The Chief AI Architect cares: did the fraud or risk model make the right hold? Was it grounded in this session’s device and payment evidence, or a recycled score from yesterday? Was auto-hold inside policy, or did it freeze a trusted customer without an appeal path? Was the model up, or did checkout fail open? Did the holds that were right save more loss than the false holds cost in abandoned carts?
+
+#### What above means
+
+These examples are not capability chains. The domains stay the same — FOREX, healthcare provider, eCommerce — so the two roles can be read against one another. The Chief Architect watches each domain as a path. The Chief AI Architect watches one AI decision *inside* that path, and runs the same five questions in every domain.
+
+![Chief AI Architect questions across FOREX, healthcare, and eCommerce](docs/ai-decision-questions.png)
+
+**The five questions (constant). The evidence (changes by domain).**
+
+| Question | What it asks | FOREX — mid-day hedge | Healthcare — order suggestion | eCommerce — hold-or-release |
+|---|---|---|---|---|
+| Correct? | Would the accountable human have made this call? | Desk head would cut EUR on this book | Right order for this patient | Right hold for this order |
+| Grounded? | Was the decision based on current evidence? | Live quote, book, mid-day P/L | Current chart and med list | This session’s device and payment |
+| Authority? | Was the model allowed to do this? | Inside the desk limit | Approved clinical authority | Auto-hold policy and an appeal path |
+| Dependable? | Did the model actually serve? | Model ran, not a silent fallback | Service served, not a timeout | Model up, not fail-open |
+| Value / cost? | Was the decision worth what it consumed? | Hedge save vs spread + compute | Miss prevented vs review time | Loss saved vs abandoned carts |
+
+Do not turn this into another journey map. If the diagram starts looking like trades → execution → settlement, it has slipped back into the Chief Architect view.
+
+The same telemetry can feed both dashboards. The objects of attention are different: a broken path versus a bad, ungrounded, unauthorized, down, or too-expensive decision.
+
 Both Chief Architect and Chief AI Architect roles share business outcomes and telemetry, but they ask different questions of the data.
 - The Chief Architect asks, "Where is the journey or architecture failing?"
 - The Chief AI Architect asks, "Did AI make or support the right decision, under the right controls, at an acceptable cost?"

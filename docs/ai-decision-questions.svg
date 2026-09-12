@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560" role="img" aria-labelledby="title desc">
+  <title id="title">Chief AI Architect questions across FOREX, healthcare, and eCommerce</title>
+  <desc id="desc">Same three domains as the Chief Architect chain. Each column is one AI decision tested by the same five questions.</desc>
+
+  <rect fill="#ffffff" width="1280" height="560"/>
+
+  <text fill="#59636e" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" x="16" y="42">Same domains</text>
+
+  <rect fill="#1f4e79" x="200" y="16" width="344" height="36" rx="4"/>
+  <text fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="600" x="372" y="39" text-anchor="middle">FOREX trade processing</text>
+
+  <rect fill="#1b4f4a" x="556" y="16" width="344" height="36" rx="4"/>
+  <text fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="600" x="728" y="39" text-anchor="middle">Healthcare provider</text>
+
+  <rect fill="#5c3d1e" x="912" y="16" width="352" height="36" rx="4"/>
+  <text fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="600" x="1088" y="39" text-anchor="middle">eCommerce</text>
+
+  <line x1="200" y1="60" x2="200" y2="544" stroke="#d0d7de" stroke-width="1.5"/>
+  <line x1="544" y1="60" x2="544" y2="544" stroke="#d0d7de" stroke-width="1.5"/>
+  <line x1="900" y1="60" x2="900" y2="544" stroke="#d0d7de" stroke-width="1.5"/>
+
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" x="16" y="100">AI decision</text>
+  <rect fill="#0e2438" x="212" y="72" width="320" height="48" rx="4"/>
+  <text fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" x="372" y="93" text-anchor="middle">Mid-day hedge recommendation</text>
+  <text fill="#c4a35a" font-family="Helvetica, Arial, sans-serif" font-size="11" x="372" y="110" text-anchor="middle">sits in trade-book / P/L</text>
+  <rect fill="#0e2438" x="568" y="72" width="320" height="48" rx="4"/>
+  <text fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" x="728" y="93" text-anchor="middle">Order suggestion</text>
+  <text fill="#c4a35a" font-family="Helvetica, Arial, sans-serif" font-size="11" x="728" y="110" text-anchor="middle">sits in encounter / orders</text>
+  <rect fill="#0e2438" x="924" y="72" width="328" height="48" rx="4"/>
+  <text fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" x="1088" y="93" text-anchor="middle">Hold-or-release at checkout</text>
+  <text fill="#c4a35a" font-family="Helvetica, Arial, sans-serif" font-size="11" x="1088" y="110" text-anchor="middle">sits in orders / fulfillment</text>
+
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" x="16" y="168">Correct?</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="212" y="140" width="320" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="372" y="167" text-anchor="middle">Desk head would make that call</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="568" y="140" width="320" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="728" y="167" text-anchor="middle">Right order for this patient</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="924" y="140" width="328" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="1088" y="167" text-anchor="middle">Right hold for this order</text>
+
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" x="16" y="228">Grounded?</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="212" y="200" width="320" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="372" y="227" text-anchor="middle">Live quote, book, mid-day P/L</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="568" y="200" width="320" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="728" y="227" text-anchor="middle">Current chart and med list</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="924" y="200" width="328" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="1088" y="227" text-anchor="middle">This session device and payment</text>
+
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" x="16" y="288">Authority?</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="212" y="260" width="320" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="372" y="287" text-anchor="middle">Inside the desk limit</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="568" y="260" width="320" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="728" y="287" text-anchor="middle">Approved clinical authority</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="924" y="260" width="328" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="1088" y="287" text-anchor="middle">Auto-hold policy and appeal path</text>
+
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" x="16" y="348">Dependable?</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="212" y="320" width="320" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="372" y="347" text-anchor="middle">Model ran, not a silent fallback</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="568" y="320" width="320" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="728" y="347" text-anchor="middle">Service served, not a timeout</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="924" y="320" width="328" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="1088" y="347" text-anchor="middle">Model up, not fail-open</text>
+
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="600" x="16" y="408">Value / cost?</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="212" y="380" width="320" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="372" y="407" text-anchor="middle">Hedge save vs spread + compute</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="568" y="380" width="320" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="728" y="407" text-anchor="middle">Miss prevented vs review time</text>
+  <rect fill="#f6f8fa" stroke="#d0d7de" x="924" y="380" width="328" height="44" rx="4"/>
+  <text fill="#1f2328" font-family="Helvetica, Arial, sans-serif" font-size="13" x="1088" y="407" text-anchor="middle">Loss saved vs abandoned carts</text>
+
+  <text fill="#59636e" font-family="Helvetica, Arial, sans-serif" font-size="12" x="640" y="468" text-anchor="middle">Chief Architect watches the column as a path. Chief AI Architect watches one decision in that column against these five questions.</text>
+  <text fill="#59636e" font-family="Helvetica, Arial, sans-serif" font-size="12" x="640" y="490" text-anchor="middle">FOREX, healthcare, and eCommerce stay the same domains in both views.</text>
+</svg>
