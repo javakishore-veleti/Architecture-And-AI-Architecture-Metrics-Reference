@@ -3,9 +3,9 @@
 This repo is designed as a working reference for distinguishing the responsibility, information needs, and dashboard priorities of a Chief Architect and a Chief AI Architect.
 
 ## Introduction
-The two roles are related but not interchangagle:
-
 ![Understanding of "The Chief Architect" and "The Chief AI Architect" Profiles](docs/profiles-banner.png)
+
+The two roles are related but not interchangagle:
 
 ### The Chief Architect 
 The Chief Architect is accountable for the health of the end-to-end business and technology architecutre.
@@ -54,3 +54,12 @@ A provider **does** create and submit claims — that is revenue cycle, after th
 **eCommerce** is the simpler consumer version of the same idea: an order is taken, the product is fulfilled, the service or device is activated, the customer is notified, and the bill is cut. Notification and billing show up in every industry; they are the least distinctive part of the chain.
 
 ### The Chief AI Architect
+The Chief AI Architect is accountable for the safe, explainable, economical, and governed use of AI in that architecture (above busienss and technology architectures).
+
+The Chief AI Architect dashboards should show whether AI decisions are correct, grounded in evidence, within approved authority, operationally dependable, and producing measurable value.
+
+Both Chief Architect and Chief AI Architect roles share business outcomes and telemetry, but they ask different questions of the data.
+- The Chief Architect asks, "Where is the journey or architecture failing?"
+- The Chief AI Architect asks, "Did AI make or support the right decision, under the right controls, at an acceptable cost?"
+
+The section following provides the leadership framing first. The section after provide the detailed definitions, formulas, scorecards, and implementaiton guidance.
