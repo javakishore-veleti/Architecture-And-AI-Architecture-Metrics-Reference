@@ -24,7 +24,7 @@ This table represents the end-to-end business services/capabilities for each dom
 
 These examples are not feature lists. They are the end-to-end capability chains a Chief Architect dashboard should watch: can work move reliably from one business service to the next, and are the calculations those services depend on accurate?
 
-![End-to-end business services and capabilities for FOREX, healthcare, and eCommerce](docs/domain-capability-chains.svg)
+![End-to-end business services and capabilities for FOREX, healthcare, and eCommerce](docs/domain-capability-chains.png)
 
 **FOREX trade processing**
 
